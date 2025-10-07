@@ -1,6 +1,6 @@
 {
   "name": "cocojs-component-demo",
-  "version": "0.0.54",
+  "version": "0.0.55",
   "description": "官网的组件库，也是组件库演示",
   "type": "module",
   "module": "dist/bundle.esm.js",
@@ -9,21 +9,21 @@
     "dist"
   ],
   "scripts": {
-    "dev": "coco dev",
-    "build": "coco build lib",
+    "dev": "coco app dev",
+    "build": "coco lib build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@cocojs/cli": "^0.0.1-alpha202504121038",
-    "@cocojs/typescript-transformer": "0.0.10",
+    "@cocojs/cli": "^0.0.1-alpha202510071402",
+    "@cocojs/typescript-transformer": "^0.0.14",
     "ts-patch": "3.1.2",
     "typescript": "5.3.3"
   },
   "peerDependencies": {
-    "coco-mvc": "^0.0.1-alpha202504121038"
+    "coco-mvc": "^0.0.1-alpha202510071402"
   },
   "dependencies": {
     "prismjs": "^1.30.0"

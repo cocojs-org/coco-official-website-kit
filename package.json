@@ -19,8 +19,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@cocojs/cli": "^0.0.1-alpha202510081030",
-    "@cocojs/typescript-transformer": "^0.0.15",
+    "@cocojs/cli": "^0.0.1-alpha202510081514",
+    "@cocojs/type-extractor": "^0.0.16",
     "@tailwindcss/cli": "^4.1.14",
     "@tailwindcss/postcss": "^4.1.14",
     "css-loader": "^7.1.2",
@@ -32,7 +32,7 @@
     "typescript": "5.3.3"
   },
   "peerDependencies": {
-    "coco-mvc": "^0.0.1-alpha202510081030"
+    "coco-mvc": "^0.0.1-alpha202510081514"
   },
   "dependencies": {
     "prismjs": "^1.30.0"

@@ -1,4 +1,3 @@
-import "./input.css"
 export { default as Button } from './view/button'
 export { default as Card } from './view/card'
 export { default as Code } from './view/code'

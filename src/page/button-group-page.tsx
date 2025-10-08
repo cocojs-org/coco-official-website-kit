@@ -3,7 +3,7 @@ import ButtonGroup from "../view/button-group";
 
 @route("/button-group")
 @page()
-class ButtonPage {
+class ButtonGroupPage {
 
   btnArray = ['水果', '蔬菜', '荤菜'];
 
@@ -14,4 +14,4 @@ class ButtonPage {
   }
 }
 
-export default ButtonPage;
+export default ButtonGroupPage;

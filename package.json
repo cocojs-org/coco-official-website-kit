@@ -1,6 +1,6 @@
 {
   "name": "cocojs-component-demo",
-  "version": "0.0.62",
+  "version": "0.0.63",
   "description": "官网的组件库，也用于演示组件库项目",
   "type": "module",
   "module": "dist/bundle.esm.js",

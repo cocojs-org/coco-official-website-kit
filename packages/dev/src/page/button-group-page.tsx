@@ -1,5 +1,5 @@
 import { page, route } from 'coco-mvc';
-import ButtonGroup from "../view/button-group";
+import { ButtonGroup } from "coco-official-website-kit";
 
 @route("/button-group")
 @page()

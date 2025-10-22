@@ -1,6 +1,5 @@
 import { page, route } from 'coco-mvc';
-import Code from '../view/code';
-import InlineCode from "../view/inline-code";
+import { Code, InlineCode } from 'coco-official-website-kit';
 
 @route("/code")
 @page()

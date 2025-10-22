@@ -1,4 +1,5 @@
 export { default as Button } from './view/button'
+export { default as ButtonGroup } from './view/button-group'
 export { default as Card } from './view/card'
 export { default as Code } from './view/code'
 export { default as CodePanel } from './view/code-panel'

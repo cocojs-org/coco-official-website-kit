@@ -1,5 +1,5 @@
 import { page, route } from 'coco-mvc';
-import Table from "../view/table";
+import { Table } from 'coco-official-website-kit';
 
 @route("/table")
 @page()

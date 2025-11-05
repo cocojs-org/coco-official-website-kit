@@ -1,6 +1,6 @@
 {
   "name": "coco-official-website-kit",
-  "version": "0.0.63",
+  "version": "0.0.64",
   "description": "官网的组件库，也用于演示组件库项目",
   "type": "module",
   "module": "dist/bundle.esm.js",
@@ -17,9 +17,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@cocojs/cli": "0.0.1-alpha202511021502",
     "@tailwindcss/cli": "^4.1.14",
     "@tailwindcss/postcss": "^4.1.14",
-    "create-coco": "0.0.1-alpha202510222136",
     "tailwindcss": "^4.1.14",
     "ts-patch": "3.1.2",
     "typescript": "5.3.3"

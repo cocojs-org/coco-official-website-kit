@@ -1,0 +1,33 @@
+{
+  "name": "coco-official-website-kit",
+  "version": "0.0.64",
+  "description": "官网的组件库，也用于演示组件库项目",
+  "type": "module",
+  "module": "dist/bundle.esm.js",
+  "types": "dist/types/lib.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build:lib": "coco lib build",
+    "build:css": "tailwindcss -i ./src/input.css -o ./dist/bundle.css",
+    "build": "pnpm run build:lib && pnpm run build:css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cocojs/cli": "0.0.1-alpha202511021502",
+    "@tailwindcss/cli": "^4.1.14",
+    "@tailwindcss/postcss": "^4.1.14",
+    "tailwindcss": "^4.1.14",
+    "ts-patch": "3.1.2",
+    "typescript": "5.3.3"
+  },
+  "peerDependencies": {
+    "coco-mvc": "^0.0.1-alpha202510092123"
+  },
+  "dependencies": {
+    "prismjs": "^1.30.0"
+  }
+}

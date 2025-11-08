@@ -16,11 +16,11 @@ class Button {
       case 'primary-link':
         return 'text-primary';
       case 'link':
-        return 'text-black';
+        return 'text-primary';
       case 'primary':
         return "text-white bg-primary";
       default:
-        return "text-black border-black border";
+        return "text-primary border-primary border";
     }
   }
 

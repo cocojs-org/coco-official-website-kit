@@ -1,5 +1,5 @@
 import { page, route } from 'coco-mvc';
-import CodePanel from "../view/code-panel";
+import { CodePanel } from 'coco-official-website-kit';
 
 @route("/code-panel")
 @page()
